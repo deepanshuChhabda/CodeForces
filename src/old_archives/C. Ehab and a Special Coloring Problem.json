@@ -1,0 +1,38 @@
+{
+  "name" : "C. Ehab and a Special Coloring Problem",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "27",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n",
+    "output" : "2 1\n",
+    "index" : 1,
+    "active" : false
+  } ],
+  "location" : "src/codeforces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.CEhabAndASpecialColoringProblem",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.03",
+  "contestName" : "Codeforces Round #563 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "inputReader.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

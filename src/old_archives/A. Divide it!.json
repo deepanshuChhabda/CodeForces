@@ -1,0 +1,44 @@
+{
+  "name" : "A. Divide it!",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n1\n10\n25\n30\n14\n27\n1000000000000000000\n",
+    "output" : "0\n4\n6\n6\n-1\n6\n72\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n14",
+    "output" : "-1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n96",
+    "output" : "7",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/codeforces",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "codeforces.ADivideIt",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.09",
+  "contestName" : "Codeforces Round #565 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "inputReader.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
